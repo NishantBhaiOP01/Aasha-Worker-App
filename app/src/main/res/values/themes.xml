@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AashaWorker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="fontFamily">@font/app_font</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+    </style>
+    <style name="Theme.AshaData" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/pink_700</item>
+        <item name="colorPrimaryVariant">@color/pink_400</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <item name="materialButtonStyle">@style/Widget.AshaData.Button</item>
+        <item name="android:statusBarColor">@color/pink_700</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="fontFamily">@font/app_font</item>
+
+        <!-- Text appearances -->
+        <item name="textAppearanceHeadline6">@style/Asha.Headline</item>
+    </style>
+
+    <style name="DividerLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginStart">50dp</item>
+        <item name="android:background">@color/grey</item>
+    </style>
+
+    <style name="Asha.Headline" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+
+        <item name="fontFamily">@font/app_font</item>
+    </style>
+
+    <style name="Widget.AshaData.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">30dp</item>
+        <item name="android:paddingLeft">28dp</item>
+        <item name="android:paddingRight">28dp</item>
+
+        <item name="fontFamily">@font/app_font</item>
+    </style>
+
+    <style name="PatientLabel">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="PatientValue">
+        <item name="android:textColor">@color/onSurface</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="Theme.AashaWorker" parent="Base.Theme.AashaWorker" />
+</resources>

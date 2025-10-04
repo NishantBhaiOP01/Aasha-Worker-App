@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ASHA EHR</string>
+    <string name="role_label_as_asha">Role: ASHA</string>
+    <string name="role_label">Role: %1$s</string>
+    <string name="switch_role">Switch Role</string>
+    <string name="add_patient">Add Patient</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="notes">Notes</string>
+    <string name="voice_input">Voice Input</string>
+    <string name="save">Save</string>
+    <string name="speak_now">Speak now</string>
+    <string name="voice_not_supported">Voice input not supported</string>
+    <string name="saved_offline">Saved locally (offline)</string>
+    <string name="developer">Developed By\n@team</string>
+
+</resources>
